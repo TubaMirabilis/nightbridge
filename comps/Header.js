@@ -2,9 +2,10 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="mb-5">
+    <header className="position-relative mb-4">
+      <img className="position-absolute w-100" src="./Flag_of_Scotland.svg" />
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand" href="#">Nightbridge</a>
+        <a className="navbar-brand text-primary" href="#">Nightbridge</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -30,7 +31,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link text-center" href="#">
-                Gigs &<br className="d-none d-lg-block"/>Dates
+                Gigs &<br className="d-none d-lg-block" />Dates
               </a>
             </li>
             <li className="nav-item">
