@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-center text-white fw-bold" aria-label="Alternative rock band based in Scotland"><div style={{ marginBottom: "17rem"}} aria-hidden="true">ALTERNATIVE ROCK<br />BAND</div><div aria-hidden="true">BASED IN<br />SCOTLAND</div></h1>
+        <h1>Awesome Heading</h1>
       </main>
     </>
   );
