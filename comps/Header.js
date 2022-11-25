@@ -1,12 +1,7 @@
 import Image from "next/image";
-import Hero from "./Hero";
 const Header = () => {
   return (
-    <header
-      className="position-relative mb-4"
-      style={{ width: "100%", aspectRatio: "1.6" }}
-    >
-      <Hero />
+    <header className="position-absolute">
       <nav className="navbar navbar-expand-lg">
         <a className="navbar-brand text-primary" href="#">
           Nightbridge

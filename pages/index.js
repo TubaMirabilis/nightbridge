@@ -1,5 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
+import Hero from "../comps/Hero";
+import Externals from "../comps/Externals";
+import Upcoming from "../comps/Upcoming";
 export default function Home() {
   return (
     <>
@@ -10,7 +12,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Awesome Heading</h1>
+        <Hero />
+        <h1 className="d-block d-lg-none display-6 text-center mb-5 title-three">ALTERNATIVE ROCK BAND BASED IN SCOTLAND</h1>
+        <Externals />
+        <Upcoming />
       </main>
     </>
   );

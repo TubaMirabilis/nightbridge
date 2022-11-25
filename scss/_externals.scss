@@ -1,0 +1,9 @@
+.externals {
+  height: 3rem;
+  svg {
+    height: 2rem;
+    &:hover {
+      fill: $primary;
+    }
+  }
+}
