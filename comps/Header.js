@@ -1,13 +1,13 @@
 import Image from "next/image";
 const Header = () => {
   return (
-    <header className="position-absolute">
+    <header className="position-absolute w-100">
       <nav className="navbar navbar-expand-lg">
         <a className="navbar-brand text-primary" href="#">
           Nightbridge
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler me-3"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
