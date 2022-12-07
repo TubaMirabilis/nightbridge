@@ -1,6 +1,14 @@
 header img {
   z-index: -1;
 }
+.navbar .navbar-nav {
+  background-color: white;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-nav {
+    background-color: transparent;
+  }
+}
 .navbar .navbar-nav .nav-link {
   color: #80AFDC;
   font-weight: bold;
