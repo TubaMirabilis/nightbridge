@@ -31,7 +31,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link text-center" href="#">
-                Gigs &<br className="d-none d-lg-block" />
+                Gigs & <br className="d-none d-lg-block" />
                 Dates
               </a>
             </li>
