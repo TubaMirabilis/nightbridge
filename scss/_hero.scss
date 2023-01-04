@@ -3,49 +3,12 @@
   aspect-ratio: 1.6;
   z-index: -1;
 }
-.hero > div {
+.hero > img {
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
-}
-.hero > div:nth-child(1) {
-  position: absolute;
-  left: 0;
-  right: calc(50% + 5vw);
-  top: 5vw;
-  bottom: 5vw;
-  background-image: url(https://picsum.photos/id/1040/300/300);
-  clip-path: polygon(0 0, 100% 50%, 0 100%);
-}
-.hero > div:nth-child(2) {
-  position: absolute;
-  left: 5vw;
-  right: 5vw;
-  top: 0;
-  bottom: calc(50% + 5vw);
-  background-image: url(https://picsum.photos/id/1054/300/300);
-  clip-path: polygon(0 0, 50% 100%, 100% 0);
-}
-.hero > div:nth-child(3) {
-  position: absolute;
-  left: calc(50% + 5vw);
-  right: 0;
-  top: 5vw;
-  bottom: 5vw;
-  background-image: url(https://picsum.photos/id/101/300/300);
-  clip-path: polygon(0 50%, 100% 0, 100% 100%);
-}
-.hero > div:nth-child(4) {
-  position: absolute;
-  left: 5vw;
-  right: 5vw;
-  top: calc(50% + 5vw);
-  bottom: 0;
-  background-image: url(https://picsum.photos/id/1065/300/300);
-  clip-path: polygon(0 100%, 50% 0, 100% 100%);
 }
 .title-one {
-  top: 15%;
+  top: 12%;
   @include media-breakpoint-up(xl) {
     font-size: 3rem;
   }

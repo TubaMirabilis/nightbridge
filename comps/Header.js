@@ -3,8 +3,8 @@ const Header = () => {
   return (
     <header className="position-absolute w-100">
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand text-primary" href="#">
-          Nightbridge
+        <a className="navbar-brand ps-3" href="#">
+          <img src="./nightbridge.png" alt="Nightbridge"/>
         </a>
         <button
           className="navbar-toggler me-3"
