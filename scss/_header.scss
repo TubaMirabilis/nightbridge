@@ -1,3 +1,6 @@
+header {
+  inset: 0;
+}
 header img {
   z-index: -1;
 }
@@ -14,6 +17,5 @@ header img {
   font-weight: bold;
 }
 .navbar-brand > img {
-  height: 100%;
-  width: 256px !important;
+  width: 16rem;
 }
