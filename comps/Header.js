@@ -1,5 +1,10 @@
-import Image from "next/image";
+"use client";
+import { useEffect } from "react";
+
 const Header = () => {
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
   return (
     <header className="position-absolute w-100">
       <nav className="navbar navbar-expand-lg">
