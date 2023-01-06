@@ -12,7 +12,7 @@ export default function Home() {
         </h1>
         <div className="d-none d-lg-block container">
           <p
-            className="text-center fs-4 mb-5"
+            className="text-center fs-4 mb-5 text-white"
             style={{ letterSpacing: "0.125rem" }}
           >
             THE HOME OF NIGHTBRIDGE ON THE WEB WITH OUR LATEST NEWS, LIVE

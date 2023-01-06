@@ -6,7 +6,7 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <head />
-      <body>
+      <body className="bg-primary">
         <Header />
         {children}
         <Footer />
