@@ -1,6 +1,6 @@
 const Externals = () => {
   return (
-    <div className="d-flex justify-content-around align-items-center bg-dark container-lg externals">
+    <div className="d-flex justify-content-around align-items-center bg-secondary container-lg externals">
       <a href="https://music.apple.com/gb/artist/nightbridge/1578677495" target="_blank" rel="noopener noreferrer">
         <svg
           xmlns="http://www.w3.org/2000/svg"

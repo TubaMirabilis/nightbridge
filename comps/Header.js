@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="position-absolute w-100">
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand ms-3" href="#">
+        <a className="navbar-brand ms-3" href="/">
           <img src="./nightbridge.png" alt="Nightbridge" />
         </a>
         <button
@@ -25,7 +25,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="d-flex justify-content-center align-items-center gap-lg-5 navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/">
                 Home
               </a>
             </li>
@@ -41,7 +41,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/photos">
                 Photos
               </a>
             </li>

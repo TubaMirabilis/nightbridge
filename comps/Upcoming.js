@@ -1,10 +1,10 @@
 const Upcoming = () => {
   return (
-    <section className="container-lg bg-dark text-white">
+    <section className="container-lg bg-secondary text-white">
       <div className="row">
         <div className="col-2"></div>
         <div
-          className="col-8 bg-primary text-center text-white fw-bold border-bottom border-dark border-5"
+          className="col-8 bg-primary text-center text-white fw-bold border-bottom border-secondary border-5"
           style={{ letterSpacing: "0.125rem" }}
         >
           <h2 className="display-6">Upcoming Gigs</h2>
