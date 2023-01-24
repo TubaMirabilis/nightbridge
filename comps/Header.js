@@ -8,11 +8,11 @@ const Header = () => {
   return (
     <header className="position-absolute w-100">
       <nav className="navbar navbar-expand-lg">
-        <a className="navbar-brand ms-3" href="/">
+        <a className="navbar-brand" href="/">
           <img src="./nightbridge.png" alt="Nightbridge" />
         </a>
         <button
-          className="navbar-toggler me-3"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"

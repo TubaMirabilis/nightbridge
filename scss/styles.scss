@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
-@import "./globals";
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
 @import "./header";
-@import "./tables";
 @import "./variables";
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "./hero";
 @import "./externals";
-@import "./award";
+@import "./globals";

@@ -1,11 +1,12 @@
 header {
-  inset: 0;
+  left: 0;
+  right: 0;
 }
 header img {
   z-index: -1;
 }
 .navbar .navbar-nav {
-  background-color: white;
+  background-color: #A9589C;
 }
 @media (min-width: 992px) {
   .navbar .navbar-nav {
