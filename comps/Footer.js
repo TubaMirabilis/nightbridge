@@ -3,8 +3,8 @@ const Footer = () => {
     <footer className="mt-auto">
       <div className="row my-3">
         <div className="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
-          <a className="d-block mx-5">
-            <img className="w-100" src="./nightbridge.png" alt="Nightbridge" />
+          <a className="d-block" href="/">
+            <img className="d-block w-75 m-auto" src="./nightbridge.png" alt="Nightbridge" />
           </a>
         </div>
         <div className="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center gap-3 mb-3 mb-md-0">

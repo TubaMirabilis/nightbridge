@@ -17,23 +17,17 @@
   }
 }
 .title-two {
-  top: 62.5%;
+  top: 61%;
   @include media-breakpoint-up(xl) {
-    top: 80%;
+    top: 73%;
+    font-size: 3rem;
+  }
+  @include media-breakpoint-up(xxl) {
+    top: 81%;
   }
 }
 .title-three {
   @include media-breakpoint-up(md) {
     font-size: 3rem;
-  }
-}
-@media only screen and (min-width: 1500px) {
-  .title-two {
-    top: 100%;
-  }
-}
-@media only screen and (min-width: 1900px) {
-  .title-two {
-    top: 125%;
   }
 }

@@ -6,8 +6,8 @@ const Header = () => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   return (
-    <header className="position-absolute w-100">
-      <nav className="navbar navbar-expand-lg">
+    <header className="position-absolute">
+      <nav className="navbar navbar-expand-lg px-4">
         <a className="navbar-brand" href="/">
           <img src="./nightbridge.png" alt="Nightbridge" />
         </a>
@@ -23,7 +23,7 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="d-flex justify-content-center align-items-center gap-lg-5 navbar-nav mx-auto">
+          <ul className="d-flex justify-content-center align-items-center gap-lg-4 navbar-nav mx-auto">
             <li className="nav-item">
               <a className="nav-link" href="/">
                 Home
